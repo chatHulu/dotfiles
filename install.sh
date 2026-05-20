@@ -1,10 +1,10 @@
 #!/bin/bash
 # Tmux optimized config — one-line deploy
-# curl -sL https://raw.githubusercontent.com/Iviewer989/tmux-conf/main/install.sh | bash
+# curl -sL https://raw.githubusercontent.com/chatHulu/dotfiles/main/install.sh | bash
 
 set -e
 CONF="$HOME/.tmux.conf"
-REPO="https://raw.githubusercontent.com/Iviewer989/tmux-conf/main"
+REPO="https://raw.githubusercontent.com/chatHulu/dotfiles/main"
 
 echo "==> Downloading tmux.conf..."
 curl -fsSL "$REPO/.tmux.conf" -o "$CONF"
